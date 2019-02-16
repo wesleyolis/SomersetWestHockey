@@ -1,0 +1,167 @@
+div#semi_trans, div#semi_trans_enhanced #cont,div#semi_trans_enhanced #expaned,div#semi_trans_enhanced #blck{
+width:99%;		/*Dont remove the width,height tag else effect fails*/
+}
+
+/*Fixed for transparence of conent and not jsut back ground*/
+div#semi_trans_enhanced{
+position: relative;
+}
+div#semi_trans_enhanced #cont{
+position: absolute; left: 0; top: 0;
+}
+/*End of Fix*/
+/*back ground block*/
+div#semi_trans_enhanced #blck {
+filter:alpha(opacity=70); -moz-opacity: 0.70; opacity: 0.70;
+}
+
+/* hidden content to make size fix */
+div#semi_trans_enhanced #expaned {
+filter:alpha(opacity=0); -moz-opacity: 0.0; opacity: 0.0;
+}
+
+
+/*Customizeing content of transparent block call div called node*/
+/*N.B systles apple to cont, blck, expaned when dealing with size paprameters such as padding.*/
+
+div#semi_trans_enhanced #blck, div#semi_trans {
+filter:alpha(opacity=50); -moz-opacity: 0.50; opacity: 0.50;
+}
+div.node.semi_trans_enhanced .expaned {
+filter:alpha(opacity=0); -moz-opacity: 0.0; opacity: 0.0;
+}
+div#semi_trans , div#semi_trans_enhanced#blck{
+  background-color:#FFFFFF;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Basic Transparent construction*/
+
+div.semi_trans, div.semi_trans_enhanced .cont,div.semi_trans_enhanced .expaned,div.semi_trans_enhanced .blck{
+width:99%;		/*Dont remove the width,height tag else effect fails*/
+}
+
+/*Fixed for transparence of conent and not jsut back ground*/
+div.semi_trans_enhanced{
+position: relative;
+}
+div.semi_trans_enhanced .cont{
+position: absolute; left: 0; top: 0;
+}
+/*End of Fix*/
+/*back ground block*/
+div.semi_trans_enhanced .blck {
+filter:alpha(opacity=70); -moz-opacity: 0.70; opacity: 0.70;
+}
+/* hidden content to make size fix */
+div.semi_trans_enhanced .expaned {
+filter:alpha(opacity=0); -moz-opacity: 0.0; opacity: 0.0;
+}
+
+
+
+/*Customizeing content of transparent block call div called node*/
+/*N.B systles apple to cont, blck, expaned when dealing with size paprameters such as padding.*/
+
+div.node .cont, div.node .blck, div.node .expaned{
+  padding: 5px 5px 5px 5px;
+}
+
+div.node.semi_trans_enhanced .blck, div.node.semi_trans {
+filter:alpha(opacity=70); -moz-opacity: 0.70; opacity: 0.70;
+}
+div.node.semi_trans_enhanced .expaned {
+filter:alpha(opacity=0); -moz-opacity: 0.0; opacity: 0.0;
+}
+div.node.semi_trans , div.node.semi_trans_enhanced .blck{
+  background-color:#FFFFFF;
+}
+
+div.node.semi_trans{
+  padding: 5;
+}
+
+body {
+background-color:#000000;margin:10px;
+}
+
+.page{
+
+padding:0px; border-collapse: collapse; border: 5px solid #C3D9FF;
+background: #000000 url('images/back4.jpg') no-repeat fixed;
+
+}
+
+a {
+  text-decoration: none;
+  font-weight: bold;
+}
+a:link {
+  color: #39c;
+}
+a:visited {
+  color: #369;
+}
+a:hover {
+  color: #39c;
+  text-decoration: underline;
+}
+
+#menu {
+  padding: 0.2em 0.3em 0em 0.2em;
+  text-align: center;
+  vertical-align: middle;
+}
+#navlist {
+  font-size: 1.0em;
+  padding: 1em 0.2em 0.2em 0em;
+  color: #9cf;
+}
+#navlist a {
+  font-weight: bold;
+  color: #fff;
+}
+#subnavlist {
+  padding: 0.5em 0.2em 0.0em 0em;
+  font-size: 0.9em;
+  color: #9cf;
+}
+#subnavlist a {
+  font-weight: bold;
+  color: #9ef;
+}
+ul.links li {
+  border-left: 1px solid #9cf;
+}
+ul.links li.first {
+  border: none;
+}

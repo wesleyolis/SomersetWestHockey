@@ -1,0 +1,11 @@
+/* $Id: advpoll.css,v 1.2.2.2 2006/11/29 06:02:48 chriskennedy Exp $ */
+
+.node-form .choices {
+  width: 87%;
+  margin-right: 0.2em;
+  display:inline;
+}
+
+a.remove-choice {
+  font-size: 0.85em;
+}

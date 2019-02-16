@@ -1,0 +1,9 @@
+; $Id: taxonomy_context.info,v 1.1.2.2 2007/08/29 14:46:16 nedjo Exp $
+name = Taxonomy context
+description = Adds description and child term information to taxonomy term pages, provides vocabulary pages, and generates a context-sensitive menu block for each vocabulary.
+
+; Information added by drupal.org packaging script on 2008-01-15
+version = "5.x-1.x-dev"
+project = "taxonomy_context"
+datestamp = "1200399162"
+

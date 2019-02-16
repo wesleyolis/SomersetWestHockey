@@ -1,0 +1,12 @@
+
+name = CCK Taxonomy
+description = CCK integration with taxonomy.module
+version = super alpha
+dependencies = content taxonomy views
+package = CCK
+
+; Information added by drupal.org packaging script on 2007-05-20
+version = "5.x-1.0"
+project = "cck_taxonomy"
+datestamp = "1179682204"
+

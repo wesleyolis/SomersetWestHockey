@@ -1,0 +1,42 @@
+<?php
+// $Id: taxonomy_context.install,v 1.3 2006/10/17 23:43:43 nedjo Exp $
+
+/**
+ * Implementation of hook_install().
+ */
+function taxonomy_context_install() {
+  switch ($GLOBALS['db_type']) {
+    case 'mysql':
+    case 'mysqli':
+      db_query("CREATE TABLE {taxonomy_context_vocabulary} (
+        vid int(10) unsigned NOT NULL default '0',
+        format int(4) NOT NULL default '0',
+        PRIMARY KEY (vid)
+      ) /*!40100 DEFAULT CHARACTER SET UTF8 */ ");
+      db_query("CREATE TABLE {taxonomy_context_term} (
+        tid int(10) unsigned NOT NULL default '0',
+        format int(4) NOT NULL default '0',
+        PRIMARY KEY (tid)
+      ) /*!40100 DEFAULT CHARACTER SET UTF8 */ ");
+      break;
+    case 'pgsql':
+      db_query("CREATE TABLE {taxonomy_context_vocabulary} (
+        vid integer NOT NULL default '0',
+        format int NOT NULL default '0',
+        PRIMARY KEY (vid)
+      )");
+      db_query("CREATE TABLE {taxonomy_context_term} (
+        tid integer NOT NULL default '0',
+        format int NOT NULL default '0',
+        PRIMARY KEY (tid)
+      )");
+      break;
+  }
+}
+
+/**
+ * Assign needed tables to pre-existing sites.
+ */
+function taxonomy_context_update_1() {
+  taxonomy_context_install();
+}

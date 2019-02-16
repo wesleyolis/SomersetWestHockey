@@ -1,0 +1,175 @@
+# $Id: ja.po,v 1.1.2.2 2007/04/26 12:47:34 imagine Exp $
+# -----------------------------------------------------------------------------
+# Japanese translation of Drupal (taxonomy_context.module)
+#
+# Copyright (c) 2006-2007  Drupal Japan  ( http://drupal.jp/ )  /
+#                          Drupal Nippon ( http://drupon.org/ ) /
+#                          Takafumi      ( jp.drupal@imagine **reverse order**)
+#
+# Generated from file:
+#  taxonomy_context.module,v 1.72.2.3 2007/04/25 16:02:20 douggreen
+#  taxonomy_context.info,v 1.1 2007/01/16 22:56:35 nedjo
+#
+# -----------------------------------------------------------------------------
+msgid ""
+msgstr ""
+"POT-Creation-Date: 2007-04-26 19:26+0900\n"
+"Last-Translator: Takafumi <jp.drupal@imagine **reverse order**>\n"
+"Language-Team: Drupal Japan / Drupal Nippon\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+
+#: taxonomy_context.module:33
+msgid "Taxonomy Context"
+msgstr "タクソノミーコンテクスト"
+
+#: taxonomy_context.module:34
+msgid "Set display options."
+msgstr "表示オプションを設定します。"
+
+#: taxonomy_context.module:41
+#msgid "Categories"
+#msgstr "カテゴリ"
+
+#: taxonomy_context.module:68
+msgid "Saved format data for !type."
+msgstr "「!type」のフォーマットデータが保存されました。"
+
+#: taxonomy_context.module:72
+msgid "Deleted format data for !type."
+msgstr "「!type」のフォーマットデータが削除されました。"
+
+#: taxonomy_context.module:92
+msgid "Display mode"
+msgstr "表示モード"
+
+#: taxonomy_context.module:93
+msgid "Select \"Contextual\" if you wish to display this block only on pages (vocabulary, terms, content pages) within its vocabulary. Select \"Normal\" to have this block display on all pages."
+msgstr "このブロックを、どのページに表示するかを指定してください。 「文脈依存」を選ぶと、分類用語グループ内のページ（分類用語グループ、分類用語、コンテンツページ）にのみ表示され、「標準」を選ぶと、すべてのページに表示されます。"
+
+#: taxonomy_context.module:95
+msgid "Contextual"
+msgstr "文脈依存"
+
+#: taxonomy_context.module:95
+msgid "Normal"
+msgstr "標準"
+
+#: taxonomy_context.module:106
+msgid "Context for !vocabulary"
+msgstr "「!vocabulary」のコンテクスト"
+
+#: taxonomy_context.module:147
+msgid "<p>This module can be used to output title and description of the current taxonomy term plus child nodes of that term.</p>"
+msgstr "<p>このモジュールは、現在のタクソノミーの分類用語と下位ノードの、タイトルと説明を出力します。</p>"
+
+#: taxonomy_context.module:162
+#msgid "edit"
+#msgstr "編集"
+
+#: taxonomy_context.module:164
+msgid "Edit this !type."
+msgstr "この!typeを編集する"
+
+#: taxonomy_context.module:183;533;540;547
+#msgid "Disabled"
+#msgstr "無効"
+
+#: taxonomy_context.module:183;533;540;547
+#msgid "Enabled"
+#msgstr "有効"
+
+#: taxonomy_context.module:184 taxonomy_context.info:0
+msgid "Taxonomy context"
+msgstr "タクソノミーコンテクスト"
+
+#: taxonomy_context.module:187
+msgid "Display taxonomy inline"
+msgstr "タクソノミーのインライン表示"
+
+#: taxonomy_context.module:190
+msgid "Display taxonomy information in node body."
+msgstr "ノード本文内にタクソノミー情報を表示するかどうかを指定してください。"
+
+#: taxonomy_context.module:194
+msgid "Show taxonomy breadcrumb"
+msgstr "タクソノミーのパンくずリストを表示"
+
+#: taxonomy_context.module:197
+msgid "Display a breadcrumb with full taxonomy context."
+msgstr "タクソノミーのパンくずリストを表示するかどうかを指定してください。 有効にすると、完全なタクソノミーのコンテクストを備えたパンくずリストを表示します。"
+
+#: taxonomy_context.module:302
+#msgid "Home"
+#msgstr "ホーム"
+
+#: taxonomy_context.module:326
+msgid "No vocabularies have yet been created."
+msgstr "現在のところ、分類用語グループは作成されていません。"
+
+#: taxonomy_context.module:435
+msgid "View this section"
+msgstr "このセクションを表示"
+
+#: taxonomy_context.module:526
+msgid "General Settings"
+msgstr "全般の設定"
+
+#: taxonomy_context.module:531
+msgid "Use style for term and subterm display"
+msgstr "分類用語とサブ分類用語にスタイルを使用"
+
+#: taxonomy_context.module:534
+msgid "Include style declaration to clean up display of taxonomy info. Disable this option if you wish to do this instead through editing theme .css files."
+msgstr "タクソノミー情報の表示を整えるために、専用のCSSファイルを使用するかどうかを指定してください。 有効にすると、スタイルシートを読み込むための宣言を含めます。 テーマでこれを行いたい場合は無効にしてください。"
+
+#: taxonomy_context.module:538
+msgid "Show term info"
+msgstr "分類用語の情報を表示"
+
+#: taxonomy_context.module:541
+msgid "Show additional information about current term (from description)."
+msgstr "現在の用語に関する追加情報を表示するかどうかを指定してください。 情報は、用語の説明欄の内容が使用されます。"
+
+#: taxonomy_context.module:545
+msgid "Show subterm info"
+msgstr "サブ分類用語の情報を表示"
+
+#: taxonomy_context.module:548
+msgid "Show listings of subterms (sub-categories) for current term."
+msgstr "現在の用語のサブ分類用語（サブカテゴリ）一覧を表示するかどうかを指定してください。"
+
+#: taxonomy_context.module:552
+msgid "Show nodes in block"
+msgstr "ブロック内に表示するノード"
+
+#: taxonomy_context.module:554
+msgid "None"
+msgstr "なし"
+
+#: taxonomy_context.module:554
+msgid "Sticky"
+msgstr "掲載位置がリスト上部に固定されている"
+
+#: taxonomy_context.module:554
+msgid "Promoted"
+msgstr "フロントページに掲載されている"
+
+#: taxonomy_context.module:554
+msgid "All"
+msgstr "すべて"
+
+#: taxonomy_context.module:555
+msgid "What nodes do you wish to display in taxonomy blocks?"
+msgstr "タクソノミーブロック内に表示したいノードを指定してください。"
+
+#: taxonomy_context.module:0 taxonomy_context.info:0
+msgid "taxonomy_context"
+msgstr "taxonomy_context"
+
+#: taxonomy_context.info:0
+msgid "Adds description and child term information to taxonomy term pages, provides vocabulary pages, and generates a context-sensitive menu block for each vocabulary."
+msgstr "タクソノミーの分類用語ページに説明と下位分類用語の情報を加え、分類用語グループのページを提供し、各分類用語グループの文脈依存型メニューブロックを生成します。"
+

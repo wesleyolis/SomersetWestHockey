@@ -1,0 +1,13 @@
+; $Id: content_taxonomy.info,v 1.1.2.1 2007/03/01 18:50:33 mh86 Exp $
+name = Content Taxonomy
+description = Defines a field type for taxonomy terms
+version = "$Name $"
+dependencies = content taxonomy
+package = CCK
+
+
+
+; Information added by drupal.org packaging script on 2007-05-10
+version = "5.x-1.x-dev"
+project = "content_taxonomy"
+

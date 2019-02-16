@@ -1,0 +1,86 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Language" content="en-us">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>New Page 1</title>
+</head>
+<link rel="stylesheet" href="swhockey.css" type="text/css">
+<body>
+
+<table  width="1000px" class="page" align="center" cellspacing="0" cellpadding="0" height="100%">
+<tr><td>
+<table class="" border="0" width="100%" cellspacing="0" cellpadding="0" height="100%">
+<tr><td  height="187px" align="left" valign="top">
+		
+<table  height="184" border="0" width="100%" id="table3" cellspacing="0" cellpadding="0">
+<tr><td align="center">
+<img border="0" src="images/logo.gif" width="88" height="83" >
+</td>
+<td valign="bottom" align="right" ><font color="#FFFFFF"><font size="7">Somerset West Hockey Club</font>
+<br><b><font size="4">the home of Somerset Hocke</font><i>y</i></b></font></td>
+<td width="133">&nbsp;</td>
+</tr></table>
+	
+</td></tr>
+
+<tr><td valign='top' style="padding: 10px;">
+<div align="center">
+
+<div id='trans_block' class="semi_trans" style="width: 958px;height:368px">	
+			
+		<p align="center">dsfsdfsdf<br>sd<font face="Times New Roman">fsdfasd</font>f<br>
+		<img id='testing0' border="0" src="images/image001.gif" width="264" height="253">a<b><font size="6">dsfadsf</font></b><br>sdfsdfasdf<br>
+		dsfsdfsdf<br>sdfsdfasdf<br>
+				
+	</div>
+					</div>
+		
+	
+	
+	
+		
+		</td>
+	</tr>
+</table>
+
+</td></tr></table>
+
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<script language="javascript">
+<!--
+
+/*
+	<table class="block"><tr><td>
+		<table class="expaned"><tr><td>	
+		</td></tr></table></td></tr></table>
+
+*/
+attachel();
+
+function attachel()
+{
+var tables = parent.document.getElementsByTagName('div');
+if(tables!=null)
+for(var i=0;i<tables.length;i++)
+	{var table = tables[i];
+		if(table.id.indexOf('trans_block')>=0)
+		{trans_block(table);}
+	}
+}
+
+function trans_block(obj)
+{
+	obj.className = obj.className + "_enhanced";
+	obj.innerHTML = ('<div class="cont">'+ obj.innerHTML +'</div><div class="block"><div class="expaned">'+ obj.innerHTML +'</div></div>') ;
+}
+
+
+
+//-->
+</script>
+</body>
+
+
+</html>
